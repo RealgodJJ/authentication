@@ -1,0 +1,93 @@
+.boxContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  background-color: #e7e7e7;
+
+  .titleBox {
+    width: 100%;
+    height: 45PX;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+    .imgReturn {
+      width: 25PX;
+      height: 25PX;
+      background-color: #d9de34;
+      margin-left: 15PX;
+      z-index: 1;
+    }
+
+    .titleAuthenticate {
+      font-size: 20PX;
+      margin-left: -25PX;
+      font-weight: bold;
+      flex: 1;
+      z-index: 2;
+      //text-align: center;
+    }
+  }
+
+  .idBox {
+    width: 100%;
+    height: 120PX;
+    margin-top: 15PX;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    //position: absolute;
+    //z-index: 1;
+
+    .idFirst {
+      width: 50%;
+      height: 120PX;
+      background-color: #4b4bdc;
+      border-top-left-radius: 8PX;
+      border-bottom-left-radius: 8PX;
+      margin-left: 10PX;
+      //position: absolute;
+      //z-index: 2;
+    }
+
+    .idSecond {
+      width: 50%;
+      height: 120PX;
+      background-color: #FFFFFF;
+      border-top-right-radius: 8PX;
+      border-bottom-right-radius: 8PX;
+      margin-right: 10PX;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .iconImg {
+      width: 23PX;
+      height: 23PX;
+      background-color: darkgoldenrod;
+      margin-top: 5PX;
+    }
+
+    .textSetting {
+      font-size: 20PX;
+      margin-left: 5PX;
+      flex-grow: 0;
+      //text-indent: .5PX;
+      //letter-spacing: .5PX;
+      //position: absolute;
+      //z-index: 2;
+    }
+
+    .textAuthenticate {
+      font-size: 10PX;
+    }
+  }
+}
