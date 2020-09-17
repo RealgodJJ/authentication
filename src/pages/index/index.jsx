@@ -28,27 +28,27 @@ export default class Index extends Component {
 
   render() {
     return (
-      <View className='boxContainer'>
-        <View className='titleBox'>
-          <Image className='imgReturn' src=''/>
-          <Text className='titleAuthenticate'>我的认证</Text>
+      <View className='box-container'>
+        <View className='title-container'>
+          <Image className='img-return' src=''/>
+          <Text className='title-authenticate'>我的认证</Text>
         </View>
 
-        <View className='idBox'>
-          <View className='idFirst'/>
-          <View className='idSecond'>
-            <Image className='iconImg' src=''/>
-            <Text className='textSetting'>代理人认证</Text>
-            {this.state.isAuthenticate ? <Text className='textAuthenticate'>您已认证为代理人</Text> : null}
+        <View className='input-box'>
+          <View className='id-first'/>
+          <View className='id-second'>
+            <Image className='icon-img' src=''/>
+            <Text className='text-setting'>代理人认证</Text>
+            {this.state.isAuthenticate ? <Text className='text-authenticate'>您已认证为代理人</Text> : null}
           </View>
         </View>
 
-        <View className='idBox'>
-          <View className='idFirst'/>
-          <View className='idSecond'>
-            <Image className='iconImg' src=''/>
-            <Text className='textSetting'>员工认证</Text>
-            <Text className='textAuthenticate'>您已认证为员工</Text>
+        <View className='input-box'>
+          <View className='id-first'/>
+          <View className='id-second'>
+            <Image className='icon-img' src=''/>
+            <Text className='text-setting'>员工认证</Text>
+            <Text className='text-authenticate'>您已认证为员工</Text>
           </View>
         </View>
       </View>
